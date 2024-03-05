@@ -1,0 +1,15 @@
+{% extends "main/base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+
+<h3>movviiieefscasa</h3>
+<h1>List of Movies</h1>
+<ul>
+    {% for movie in movies %}
+    <li><a href="{% url 'watch' movie_id=movie.id %}">{{ movie.title }}</li>
+    {% endfor %}
+</ul>
+
+{% endblock %}

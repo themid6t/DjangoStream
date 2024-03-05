@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+.navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.navbar-logo {
+    font-size: 1.5em;
+}
+.navbar-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar-menu li {
+    margin-right: 20px;
+}
+.navbar-menu a {
+    color: #fff;
+    text-decoration: none;
+}
+.navbar-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
